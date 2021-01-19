@@ -1,0 +1,57 @@
+#experience_header {
+    width: 95%;
+    margin: auto;
+    background-image: url("Experience.png");
+    background-size: 100% 100%;
+    margin-bottom: 3vw;
+}
+
+#experience_header_title {
+    width: 14.1%;
+    height: 3.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto;
+    font-family: 'Playfair Display';
+    font-size: 2.5vw;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.experience_entry {
+    flex: 1 1 38%;
+    min-width: 250px;
+    max-width: 40%;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto auto;
+}
+
+#icon4 {
+    display: inline-block;
+    width: 6vw;
+    height: 6vw;
+    border: 1px solid lightblue;
+    border-radius: 50%;
+    margin-bottom: 2vw;
+}
+
+#icon4:hover {
+    background-color: lightgray;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+#icon5 {
+    display: inline-block;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    margin-bottom: 2vw;
+}
+
+#icon5:hover {
+    background-color: lightgray;
+    opacity: 40%;
+    cursor: pointer;
+}

@@ -1,0 +1,41 @@
+#interests {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+#interests_header {
+    width: 95%;
+    margin: auto;
+    background-image: url("interests_banner.png");
+    background-size: 100% 100%;
+    margin-bottom: 3vw;
+}
+
+#interests_header_title {
+    width: 11%;
+    height: 3.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto;
+    font-family: 'Playfair Display';
+    font-size: 2.5vw;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+.interests_entry {
+    flex: 1 1 38%;
+    min-width: 250px;
+    max-width: 45%;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-template-rows: auto auto auto;
+}
+
+.slideshow {
+    width: 100%;
+    min-height: 22vw;
+    max-height: 26vw;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+}

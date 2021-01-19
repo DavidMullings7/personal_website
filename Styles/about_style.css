@@ -1,0 +1,41 @@
+#about_header {
+    width: 95%;
+    margin: auto;
+    background-image: url("about_banner.png");
+    background-size: 100% 100%;
+    margin-bottom: 3vw;
+}
+
+#about_header_title {
+    width: 7.6%;
+    height: 3.7vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    margin: auto;
+    font-family: 'Playfair Display';
+    font-size: 2.5vw;
+    font-weight: lighter;
+    background-color: whitesmoke;
+}
+
+#profile_pic{
+    min-width: 300px;
+    max-width: 35%;
+    border-radius: 50%;
+    border: 2px solid black;
+    align-self: center;
+}
+
+#bio {
+    min-width: 300px;
+    max-width: 48%;
+    font-family: 'Montserrat';
+    font-size: 1.8vw;
+    font-weight: lighter;
+    border-right: min(.4vw, 3px) double black;
+    border-left: min(.4vw, 3px) double black;
+    margin-right: 2vw;
+    margin-left: 2vw;
+    text-align: center;
+    align-self: center;
+}

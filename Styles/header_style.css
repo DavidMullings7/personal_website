@@ -1,0 +1,70 @@
+body, html {
+    margin: 0;
+    width: 100vw;
+    background-color: whitesmoke;
+    scroll-behavior: smooth;
+}
+
+#banner {
+    /* display: flex; */
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 30vw;
+    height: 18.97vw;
+    background-image: url("page_header.jpg");
+    background-color: rgb(36, 147, 221);
+    background-size: 100vw auto;
+    border-bottom: 1px solid black;
+    margin-bottom: 5vw;
+}
+
+#title {
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 5vw;
+    border: 0;
+    padding-left: 10vw;
+    font-family: 'Playfair Display';
+    font-size: 3.33vw;
+    font-weight: lighter;
+
+}
+
+#navigation {
+    color: whitesmoke;
+    margin: 0;
+    padding-top: 5vw;
+    border: 0;
+    padding-right: 10vw;
+    font-family: 'Playfair Display';
+    font-size: 1.66vw;
+    font-weight: lighter;
+}
+
+#tabs {
+    border-collapse: collapse;
+}
+
+th {
+    padding-left: 5px;
+    padding-right: 5px;
+    border-right: 2px solid whitesmoke;
+    border-left: 2px solid whitesmoke;
+    font-weight: inherit;
+}
+
+.nav_item {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+
+.nav_item:hover {
+    color: lightgray;
+    cursor: pointer;
+}

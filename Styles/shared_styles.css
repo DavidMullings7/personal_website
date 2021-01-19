@@ -1,0 +1,72 @@
+li {
+    list-style-type: circle;
+}
+
+a {
+    cursor: default;
+}
+
+article {
+   width: 95vw;
+   margin: auto;
+   margin-bottom: 5vw;
+   border-right: .5vw double black;
+   border-left: .5vw double black;
+}
+
+.section_entries {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    /* border-bottom: min(.4vw, 3px) solid black; */
+}
+
+.clickable:hover {
+    color: lightgray;
+    background-color: lightgray;
+    opacity: 40%;
+    cursor: pointer;
+}
+
+.icon {
+    display: inline-block;
+    width: 6vw;
+    height: 6vw;
+    border-radius: 50%;
+    border: 1px solid black;
+    margin-bottom: 2vw;
+}
+
+.institution {
+    display: inline-block;
+    font-family: 'Playfair Display';
+    font-size: 1.8vw;
+    font-weight: lighter;
+    color: rgb(26, 24, 24);
+    margin-block-start: .4em;
+    margin-block-end: .4em;
+    margin-left: 2vw;
+    margin-bottom: 2vw;
+    text-align: center;
+}
+
+.sub_heading {
+    font-family: 'Playfair Display';
+    font-size: 1.4vw;
+    font-weight: lighter;
+    color: rgb(26, 24, 24);
+    margin-block-start: .2em;
+    margin-block-end: .2em;
+    text-align: left;
+}
+
+.description {
+    font-family: 'Montserrat';
+    font-size: 1.6vw;
+    font-weight: lighter;
+    color: rgb(43, 40, 40);
+    text-align: start;
+    padding-inline-start: 10%;
+}
