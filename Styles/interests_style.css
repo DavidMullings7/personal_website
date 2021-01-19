@@ -6,7 +6,7 @@
 #interests_header {
     width: 95%;
     margin: auto;
-    background-image: url("interests_banner.png");
+    background-image: url("/Images/interests_banner.png");
     background-size: 100% 100%;
     margin-bottom: 3vw;
 }
