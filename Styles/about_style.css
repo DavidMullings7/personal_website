@@ -39,3 +39,16 @@
     text-align: center;
     align-self: center;
 }
+
+button {
+    
+    font-family: 'Montserrat';
+    font-size: 1.8vw;
+    font-weight: lighter;
+    padding: 1%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left: auto;
+    border: min(.4vw, 3px) double black;
+    background-color: rgb(241, 239, 239);
+}
