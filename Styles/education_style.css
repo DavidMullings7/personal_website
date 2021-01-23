@@ -1,20 +1,23 @@
 #education_header {
     width: 95%;
     margin: auto;
-    background-image: url("./Images/Screen\ Shot\ 2021-01-10\ at\ 9.04.38\ PM.png");
+    background-image: url("../Images/Screen\ Shot\ 2021-01-10\ at\ 9.04.38\ PM.png");
     background-size: 100% 100%;
     margin-bottom: 3vw;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
 }
 
 #education_header_title {
-    width: 12.6%;
-    height: 3.7vw;
     padding-left: 1vw;
     padding-right: 1vw;
-    margin: auto;
+    margin: 0;
+    height: 100%;
     font-family: 'Playfair Display';
     font-size: 2.5vw;
     font-weight: lighter;
+    color: black;
     background-color: whitesmoke;
 }
 
