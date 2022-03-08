@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+
+        <!-- page title -->
+        <title>David Mullings' Personal Site</title>
+
+        <!-- links to the CSS -->
+        <link rel="stylesheet" href="./Styles/header_style.css">
+        <link rel="stylesheet" href="./Styles/about_style.css">
+        <link rel="stylesheet" href="./Styles/education_style.css">
+        <link rel="stylesheet" href="./Styles/experience_style.css">
+        <link rel="stylesheet" href="./Styles/projects_style.css">
+        <link rel="stylesheet" href="./Styles/interests_style.css">
+        <link rel="stylesheet" href="./Styles/contact_style.css">
+        <link rel="stylesheet" href="./Styles/shared_styles.css">
+        <link rel="stylesheet" href="./Styles/positions.css">
+    </head>
+    <body>
+        
+        <!-- creates the banner at the top of the page
+        encompasses the page title, banner background image, and navigation menu -->
+        <header id="banner">
+            <h1 id="title">David Mullings</h1>
+            <nav id="navigation">
+                <table id="tabs">
+                    <tr>
+                        <th>
+                            <a class="nav_item" href="#about">About</a>
+                        </th>
+                        <th>
+                            <a class="nav_item" href="#education">Education</a>
+                        </th>
+                        <th>
+                            <a class="nav_item" href="#experience">Experience</a>
+                        </th>
+                        <th>
+                            <a class="nav_item" href="#projects">Projects</a>
+                        </th>
+                        <th>
+                            <a class="nav_item" href="#interests">Interests</a>
+                        </th>
+                        <th>
+                            <a class="nav_item" href="#contact">Contact</a>
+                        </th>
+                    </tr>
+                </table>
+            </nav>
+        </header>
+
+         <!-- creates the header and content for the about section of the document -->
+         <article id="about">
+            <header id="about_header">
+                <h2 id="about_header_title">About</h2>
+            </header>
+            <section class="section_entries">
+                <div id="bio">
+                    <p> 
+                        Hello! I am a third year university student pursuing two degrees. I love coding but I also have an affinity for the soft sciences. Check out the rest of my site for more information! All pictures on the site are from my experiences.
+                    </p>
+                    <a title="Open Resume" href="./Files/david_mullings_resume.pdf" target="_blank">
+                        <button id="resume">Resume</button>
+                    </a>
+                </div>
+                <img id="profile_pic" title="David Mullings' Profile Picture" alt="David Mullings' Profile Picture" src="./Images/profile_pic.jpg">
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the education section of the document -->
+        <article id="education">
+            <header id="education_header">
+                <h2 id="education_header_title">Education</h2>
+            </header>
+            <section class="section_entries">
+                <div class="education_entry">
+                    <img class="icon" src="./Images/1200px-University_of_Texas_at_Austin_seal.svg.png" alt="University of Texas at Austin Logo"></img>
+                    <section>
+                        <h3 class="institution">The University of Texas <br> at Austin</h3>
+                        <h4 class="sub_heading">BS in Computer Science <br>4.0 GPA</h4>
+                        <ul class="description">
+                            <li>
+                                The Department of Computer Science at the University of Texas at Austin is one of the top undergraduate programs in the country. I am interested in cybersecurity and web development. 
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="education_entry">
+                    <img class="icon" src="./Images/planiialternate.jpeg" alt="Plan II Honors Logo"></img>
+                    <section>
+                        <h3 class="institution">The University of Texas <br>at Austin</h3>
+                        <h4 class="sub_heading">BA in Plan II Honors <br>4.0 GPA</h4>
+                        <ul class="description">
+                            <li>
+                                Plan II is a four-year interdisciplinary arts and science honors major with a core curriculum. This degree provides a liberal arts context to the computer science major.                             </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="education_entry">
+                    <img class="icon" src="./Images/El_Paso_High_School.jpg" alt="El Paso High School Icon"></img>
+                    <section>
+                        <h3 class="institution">El Paso High School<br>El Paso, Texas</h3>
+                        <h4 class="sub_heading">Dual Language Magnet Program <br>Salutatorian</h4>
+                        <ul class="description">
+                            <li>
+                                Connecting Worlds is an innovative Two-Way Dual Language Gifted and Talented Program (GT) with the goals of achieving high academic excellence and dual language proficiency in Spanish and English.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the experience section of the document -->
+        <article id="experience">
+            <header id="experience_header">
+                <h2 id="experience_header_title">Experience</h2>
+            </header>
+            <section class="section_entries">
+                <div class="experience_entry">
+                    <a href="https://www.arlut.utexas.edu/" target="_blank"> 
+                        <img title="Rocky Mountain Youth Corps Information" class="icon clickable" src="./Images/applied_research_laboratories.png" alt="Applied Research Laboratories Logo">
+                    </a>
+                    <section>
+                        <h3 class="institution">Applied Research Laboratories</h3>
+                        <h4 class="sub_heading">Honors Scholar Intern - Summer 2021</h4>
+                        <ul class="description">
+                            <li>
+                                Analyzed and produced lidar dataset products on planetary lava flows using Python-based data science scripting with Anaconda package manager and GIS software packages such as ArcGIS.
+                            </li>
+                            <li>
+                                Created graphical user interfaces using Tkinter to enable planetary geologists to continue studying planetary lava features using similar lidar datasets.
+                            </li>
+                            <li>
+                                Managed and mentored a freshman computer science student.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="experience_entry">
+                    <a href="https://www.rockymountainyouthcorps.org/conservation-corps-18" target="_blank"> 
+                        <img title="Rocky Mountain Youth Corps Information" class="icon clickable" src="./Images/rockymountain.png" alt="Rocky Mountain Youth Corps Logo">
+                    </a>
+                    <section>
+                        <h3 class="institution">Rocky Mountain Youth Corps</h3>
+                        <h4 class="sub_heading">Trail Crew Member - Summer 2019</h4>
+                        <ul class="description">
+                            <li>
+                                Worked through Americorps to construct and maintain hiking, biking, and equestrian trails throughout northwest Colorado to limit the ecological impacts and improve public access to wilderness areas.
+                            </li>
+                            <li>
+                                Worked and lived with eight other crewmembers in backcountry wilderness areas. Learned leadership skills and team dynamics.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="experience_entry">
+                    <a href="https://www.silverbayseafoods.com/" target="_blank"> 
+                        <img title="Silver Bay Seafoods, LLC" class="icon clickable" src="./Images/silverbay.jpg" alt="Silver Bay Seafoods, LLC Logo">
+                    </a>
+                    <section>
+                        <h3 class="institution">Silver Bay Seafoods, LLC</h3>
+                        <h4 class="sub_heading">Salmon Seine Deckhand - Summer 2020</h4>
+                        <ul class="description">
+                            <li>
+                                Worked as a greenhorn deckhand stacking lead lines, assisting in navigation, and performing minor engine maintenance on a commercial salmon seine.
+                            </li>
+                            <li>
+                                Facilitated the capture, containment, and delivery of over fifty tons of freshly caught salmon.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the projects section of the document -->
+        <article id="projects">
+            <header id="projects_header">
+                <h2 id="projects_header_title">Projects</h2>
+            </header>
+            <section class="section_entries">
+                <div class="projects_entry">
+                    <a href="https://elpasoheraldpost.com/2019-steamx-winners-scholarship-recipients-announced/" target="_blank"> 
+                        <img title="Competition Article" class="icon clickable" src="./Images/STEAMx.png" alt="STEAMx Fiesta Logo">
+                    </a>
+                    <section>
+                        <h3 class="institution">Virtual Reality Tiny House</h3>
+                        <h4 class="sub_heading">STTE STEAMx Competition - 1st Place</h4>
+                        <ul class="description">
+                            <li>
+                                Collaborated with architecture students to design, built, wire, and program a 3D model “tiny” smart home.
+                            </li>
+                            <li>
+                                Implemented a python-coded GUI to wirelessly control lighting, temperature, and security of the tiny house with a smartphone.
+                            </li>
+                            <li>
+                                Won first place at a city-wide competition and a cash prize of four thousand dollars.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="projects_entry">
+                    <a href="https://github.com/DavidMullings7/Recherche-Word-of-the-Day" target="_blank"> 
+                        <img title="Project Github" class="icon clickable" src="./Images/shakespeare.png" alt="Shakespeare in Glasses">
+                    </a>
+                    <section>
+                        <h3 class="institution">Recherché Word of the Day</h3>
+                        <h4 class="sub_heading">Personal Project</h4>
+                        <ul class="description">
+                            <li>
+                                Uses Beautiful Soup 4 and the SMTP API to screen scrape a vocabulary word off of an online dictionary and send it to a mobile device.
+                            </li>
+                            <li>
+                                This is possible through Verizon's mail-to-text feature, but could likely be adapted to other carriers as well.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="projects_entry">
+                    <img class="icon" class="clickable" src="./Images/html_css.png" alt="HTML / CSS Icons">
+                    <section>
+                        <h3 class="institution">Personal and Professional Website</h3>
+                        <h4 class="sub_heading">Personal Project</h4>
+                        <ul class="description">
+                            <li>
+                                Learned HTML and CSS via an EdX online course. Leveraged those development skills to implement this front-end personal site from the ground up. Learned valuable web content and presentation tools in the process of this site’s development.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the projects section of the document -->
+        <article id="positions">
+            <header id="positions_header">
+                <h2 id="positions_header_title">Positions</h2>
+            </header>
+            <section class="section_entries">
+                <div class="positions_entry">
+                    <a href="https://www.texasufa.com/" target="_blank"> 
+                        <img title="Competition Article" class="icon clickable" src="./Images/ufa_bull.png" alt="STEAMx Fiesta Logo">
+                    </a>
+                    <section>
+                        <h3 class="institution">University Finance Association</h3>
+                        <h4 class="sub_heading">Chief Technology Officer</h4>
+                        <ul class="description">
+                            <li>
+                                Implemented an attendance and dues tracker using socket programming for communication, PyQT for interfacing and pandas for backend database searching.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="positions_entry">
+                    <a href="https://www.texaswranglers.org/" target="_blank"> 
+                        <img title="Project Github" class="icon clickable" src="./Images/Screen+Shot+2017-06-17+at+10.45.46+pm.png" alt="Shakespeare in Glasses">
+                    </a>
+                    <section>
+                        <h3 class="institution">Texas Wranglers</h3>
+                        <h4 class="sub_heading">Class Secretary</h4>
+                        <ul class="description">
+                            <li>
+                                Used custom JavaScript functions imbedded in Google Sheets to track class member data including service hours and member meetings.
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the interests section of the document -->
+        <article id="interests">
+            <header id="interests_header">
+                <h2 id="interests_header_title">Interests</h2>
+            </header>
+            <section class="section_entries">
+                <div class="interests_entry">
+                    <img class="icon" src="./Images/hiking.png" alt="Hiking Icon">
+                    <section>
+                        <h3 class="institution">Hiking<br></h3>
+                        <iframe class="slideshow" src="https://docs.google.com/presentation/d/e/2PACX-1vTGkeV10cDG6xHfAby-HYp9xjN8IA25oi3n1-DmGqyQhFyRiba8qBuUusuoLN5_FukwmifoMrRHBtO9/embed?start=true&loop=true&delayms=8000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </section>
+                </div>
+                <div class="interests_entry">
+                    <img class="icon" src="./Images/cycling.png" alt="Cycling Icon">
+                    <section>
+                        <h3 class="institution">Cycling<br></h3>
+                        <iframe class="slideshow" src="https://docs.google.com/presentation/d/e/2PACX-1vTsrEAdg6Wb86dKelZVS-_A781c3DUYFsv1LN9K_NMFcAZxmIKbyYwzu1jTW7yzBtmSBnjD585gk9tP/embed?start=true&loop=true&delayms=8000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </section>
+                </div>
+                <div class="interests_entry">
+                    <img class="icon" src="./Images/skiing.png" alt="Skiing Icon">
+                    <section>
+                        <h3 class="institution">Skiing<br></h3>
+                        <iframe class="slideshow" src="https://docs.google.com/presentation/d/e/2PACX-1vSt9qYXufBI-02qDqwun5cR7l0kTIkhmZwzZXts0ZZA6xDq8JVKbXc9yNnBWh9_DJ__Df0bEMDg1mUP/embed?start=true&loop=true&delayms=8000&rm=minimal" frameborder="0" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                    </section>
+                </div>
+            </section>
+        </article>
+
+        <!-- creates the header and entries for the contact section of the document -->
+        <footer id="contact">
+            <section id="inner_contact">
+                <div id="clickable_contact">
+                    <a class="button_contact" href="https://www.linkedin.com/in/david-j-mullings" target="_blank">
+                        <img title="LinkedIn" alt="LinkedIn" src="./Images/linkedin_icon.png">
+                    </a>
+                    <a class="button_contact" href="https://github.com/DavidMullings7" target="_blank">
+                        <img title="GitHub" alt="GitHub" src="./Images/github_icon.png">
+                    </a>
+                    <a class="button_contact" href="mailto:dmullings@utexas.edu"> 
+                        <img title="Email" alt="Email" src="./Images/email_icon.png">
+                    </a>
+                </div>
+                <p id="text_contact">
+                    (915) 503 - 0808 <br> Austin, Texas
+                </p>
+                <p id="closing_tag">
+                    Created by David Mullings <br> 2021
+                </p>
+            </section>
+        </footer>
+
+    </body>
+</html>
